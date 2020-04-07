@@ -1,4 +1,4 @@
-This is a website built by using bootstrap.
+This is a website exercise, builting by using bootstrap.
 It is responsiable to desktop and mobile size.
 
 Desktop demo-img:
