@@ -5,4 +5,4 @@ Desktop demo-img:
 ![Image description](layout-demo/Header.png)
 
 Modile demo-img:
-![Image description](layout-demo/iphone 7.jpg)
+![Image description](layout-demo/modile.jpg)
