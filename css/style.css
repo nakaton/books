@@ -20,6 +20,26 @@ section {
     --light-gray: rgba(255, 255, 255, 0.7)
 }
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* ditch the ugle blue outline */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+/* hide close when burger shown */
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+/* show close when navbar is not collapsed */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+}
+
 header a {
     font-family: var(--Snigle-font);
     font-size: 0.9em;
@@ -94,37 +114,37 @@ header .container .col-md-7 h6 {
     letter-spacing: 4px;
 }
 
-header .container .col-md-7 h1{
+header .container .col-md-7 h1 {
     font-size: 6vmin;
     font-weight: bold;
     padding: 0.1em 0em;
 }
 
-header .container .col-md-7 p{
+header .container .col-md-7 p {
     padding: 1vmin 5vmin;
 }
 
-header .container .col-md-7 button{
+header .container .col-md-7 button {
     border-radius: 30px;
     font-weight: bold;
 }
 
 /* section 1 */
-.section-1{
+.section-1 {
     padding: 20vmin 0;
 }
 
-.section-1 .row .col-md-6 .pray img{
+.section-1 .row .col-md-6 .pray img {
     opacity: 0.9;
     border-radius: 0.3em;
     width: 80%;
 }
 
-.section-1 .row .col-md-6:last-child{
+.section-1 .row .col-md-6:last-child {
     position: relative;
 }
 
-.section-1 .row .col-md-6 .panel{
+.section-1 .row .col-md-6 .panel {
     position: absolute;
     top: 7vmin;
     left: -18vmin;
@@ -137,20 +157,20 @@ header .container .col-md-7 button{
     z-index: 1;
 }
 
-.section-1 .row .col-md-6 .panel h1{
+.section-1 .row .col-md-6 .panel h1 {
     font-weight: bold;
     padding: 0.4em 0;
     font-size: 2em;
 }
 
-.section-1 .row .col-md-6 .panel p{
+.section-1 .row .col-md-6 .panel p {
     font-size: 0.9em;
     color: rgba(0, 0, 0, 0.5);
 }
 
 /* section 2 */
 
-.cover{
+.cover {
     width: 100%;
     height: 45vmin;
     background: url(../assets/section2-cover.jpg);
@@ -159,26 +179,26 @@ header .container .col-md-7 button{
     position: relative;
 }
 
-.cover .content{
+.cover .content {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     padding-top: 19vmin;
 }
 
-.cover .content > h1{
+.cover .content>h1 {
     font-family: var(--Patua);
     font-size: 6vmin;
     color: whitesmoke;
 }
 
-.cover .content > p{
+.cover .content>p {
     font-family: var(--Rubik);
     font-size: 2vmin;
     color: #e5e5e5;
 }
 
-.numbers .rect{
+.numbers .rect {
     position: relative;
     z-index: 1;
     background: white;
@@ -190,85 +210,85 @@ header .container .col-md-7 button{
     box-shadow: 1px 2px 50px 1px rgba(243, 120, 120, 0.3);
 }
 
-.numbers{
+.numbers {
     margin-top: -10vmin;
 }
 
-.numbers .rect h1{
+.numbers .rect h1 {
     font-size: 5rem;
     color: tomato;
 }
 
-.numbers .rect p{
+.numbers .rect p {
     font-family: var(--Patua);
 }
 
-.purchase > h1{
+.purchase>h1 {
     padding-top: 15vmin;
     padding-bottom: 0.1em;
     font-family: var(--Lobster);
 }
 
-.purchase > p{
+.purchase>p {
     color: var(--light-black);
     font-size: 3vmin;
     padding-bottom: 10vmin;
 }
 
-.purchase .cards .card{
+.purchase .cards .card {
     width: 22rem;
     margin: 3vmin;
 }
 
-.cards div{
+.cards div {
     padding: 0;
     margin: 0;
 }
 
-.cards .title{
+.cards .title {
     background: rgba(208, 241, 241, 0.2);
     padding: 1.4rem 2.5rem;
     font-size: 2vmin;
 }
 
-.cards .card-text{
+.cards .card-text {
     padding: 2.5rem 3rem;
     color: var(--light-black);
 }
 
-.card-body .pricing{
+.card-body .pricing {
     background: rgba(208, 241, 241, 0.2);
     border-top-right-radius: 170px;
     border-top-left-radius: 170px;
 }
 
-.card-body .pricing>h1{
+.card-body .pricing>h1 {
     font-size: 8vmin;
     padding: 1em 0.5em;
 }
 
 /* section 3 */
 
-.section-3{
+.section-3 {
     height: 65vmin;
     margin-top: 15vmin;
     background: var(--bggradient);
 }
 
-.section-3 .col-md-12 > h1{
+.section-3 .col-md-12>h1 {
     padding: 2em 0 0.5em 0;
     color: whitesmoke;
     font-size: 6vmin;
 }
 
-.section-3 .col-md-12 > p{
+.section-3 .col-md-12>p {
     padding: 0.4em;
     padding-bottom: 2em;
     color: var(--light-gray);
     font-size: 3vmin;
 }
 
-.section-3 .desktop{
+.section-3 .desktop {
     background: white;
     display: inline-block;
     border-radius: 3em;
@@ -276,43 +296,43 @@ header .container .col-md-7 button{
     margin: 1em;
 }
 
-.section-3 .desktop h3{
+.section-3 .desktop h3 {
     font-size: 4vmin;
 }
 
-.section-3 .desktop p{
+.section-3 .desktop p {
     font-size: 2vmin;
 }
 
 /* section 4 */
 
-.section-4 .container h1{
+.section-4 .container h1 {
     font-size: 6vmin;
     padding-top: 14vmin;
 }
 
-.section-4 .team{
+.section-4 .team {
     padding: 10vmin 4vmin;
 }
 
-.section-4 .card{
+.section-4 .card {
     width: 22rem;
     margin-top: 10vmin;
 }
 
-.section-4 .card .card-text{
+.section-4 .card .card-text {
     padding: 0.5em;
 }
 
-.section-4 .card .card-body> a{
+.section-4 .card .card-body>a {
     font-size: 1.5em;
 }
 
-.section-4 .carousel-item{
+.section-4 .carousel-item {
     padding-bottom: 5rem;
 }
 
-.border-radius{
+.border-radius {
     border-radius: 340px;
     width: 60%;
 }
@@ -325,28 +345,27 @@ footer {
     padding: 14vmin 18vmin;
 }
 
-footer p>span{
+footer p>span {
     color: #ff512f;
 }
 
-footer input{
-    border:none !important;
+footer input {
+    border: none !important;
 }
 
-footer input::placeholder{
+footer input::placeholder {
     color: white !important;
 }
 
-footer .input-group .input-group-text{
+footer .input-group .input-group-text {
     background: var(--bggradient);
     border: none;
 }
 
-footer .column i{
+footer .column i {
     color: #dd2476;
 }
 
-footer .column i+i{
+footer .column i+i {
     padding: 0 0.5em;
 }
-

@@ -78,6 +78,24 @@
     }
 }
 
+@media only screen and (max-width:375px){
+    .section-4 .card{
+        width: 18rem;
+    }
+    
+    .section-4 .row{
+        margin-left: -4vmin;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left: -6vmin;
+    }
+
+    .section-4 .carousel-item{
+        margin-bottom: -20vmin;
+    }
+}
+
 @media only screen and (max-width:320px){
     .section-4 .card{
         width: 18rem;
