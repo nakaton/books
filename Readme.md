@@ -3,5 +3,5 @@
 ### Desktop demo-img:
 ![Image description](./layout-demo/header.png)
 
-### Modile demo-img:
+### Mobile demo-img:
 ![Image description](./layout-demo/mobile.jpg)
